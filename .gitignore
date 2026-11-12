@@ -1,0 +1,105 @@
+
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================================
+# Environment Variables and Secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# ==========================================
+# Python Testing and Coverage
+# ==========================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# ==========================================
+# Logs
+# ==========================================
+*.log
+logs/
+backend/logs/
+
+# ==========================================
+# Machine Learning Generated Files
+# ==========================================
+# Ignore temporary training outputs and checkpoints
+checkpoints/
+training_logs/
+runs/
+wandb/
+
+# ==========================================
+# Generated Data
+# ==========================================
+data/generated/
+data/processed/
+*.parquet.tmp
+
+# ==========================================
+# Database Backup Files
+# ==========================================
+*.sql.gz
+*.dump
+*.bak
+*.sqlite
+*.sqlite3
+.mysql_history
+
+# ==========================================
+# Frontend Dependencies
+# ==========================================
+node_modules/
+frontend/node_modules/
+
+# ==========================================
+# IDE and Editor
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# Operating System
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Temporary Files
+# ==========================================
+*.tmp
+*.temp
+*.orig
+*.bak
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101d34">
+  <title>Sign in | Predictive Maintenance</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="auth-page">
+  <main class="auth-layout">
+    <section class="auth-intro">
+      <div class="brand-lockup"><span class="brand-mark">PM</span><span>Predictive Maintenance</span></div>
+      <p class="eyebrow">INDUSTRIAL EQUIPMENT INTELLIGENCE</p>
+      <h1>Make maintenance decisions before downtime happens.</h1>
+      <p class="auth-intro-copy">Monitor equipment health, review model predictions, and coordinate maintenance from one operations workspace.</p>
+      <div class="auth-feature-list">
+        <div><span class="feature-icon">01</span><span><strong>Live monitoring</strong><small>Sensor readings streamed to your dashboard.</small></span></div>
+        <div><span class="feature-icon">02</span><span><strong>Predictive insights</strong><small>24-hour failure risk and estimated useful life.</small></span></div>
+        <div><span class="feature-icon">03</span><span><strong>Maintenance history</strong><small>Keep service activity linked to each asset.</small></span></div>
+      </div>
+    </section>
+
+    <section class="auth-card">
+      <div class="auth-card-heading">
+        <p class="eyebrow">WELCOME BACK</p>
+        <h2>Sign in to your account</h2>
+        <p class="muted">Enter your credentials to open the operations dashboard.</p>
+      </div>
+      <form id="login-form" class="form-stack">
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email" autocomplete="username" placeholder="name@company.com" required>
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" autocomplete="current-password" placeholder="Enter your password" required>
+        <button id="login-submit" class="button button-primary button-full" type="submit">Sign in</button>
+        <p id="form-message" class="form-message" role="status" aria-live="polite"></p>
+      </form>
+      <div class="auth-footer">New to the system? <a href="pages/register.html">Create a Viewer account</a></div>
+      <p class="auth-note">Access is controlled by your assigned role. Public registration creates read-only Viewer access.</p>
+    </section>
+  </main>
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/login.js"></script>
+</body>
+</html>
